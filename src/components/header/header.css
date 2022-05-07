@@ -1,0 +1,22 @@
+.Bigelow-title {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: aliceblue;
+    font-stretch: extra-expanded;
+}
+
+
+h4 {
+    width: 85%;
+
+    box-shadow: 24px 24px 66px rgba(250, 249, 255, 0.486);
+    ;
+}
+
+.headClass {
+    height: 20%;
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+}

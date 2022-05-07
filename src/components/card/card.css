@@ -1,0 +1,34 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color:brown; */
+    border: 1px solid rgba(15, 230, 69, 0.655);
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    width: 220px;
+    height: 290px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet";
+    backface-visibility: visible;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    background-color: rgba(0, 0, 0, 0.132);
+    font-size: small;
+    font-family: monospace;
+    /* cursive; */
+
+}
+
+.card-container:hover {
+    transform: scale(1.15);
+    background-color: rgba(134, 190, 239, 0.484);
+    box-shadow: 14px 14px 14px rgba(201, 219, 236, 0.735);
+}
+
+.card-container p {
+    border-radius: 20%;
+    background-color: rgba(16, 0, 68, 0.489);
+
+}

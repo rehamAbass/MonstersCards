@@ -1,0 +1,24 @@
+.search-box {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    /* width: 400px; */
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: midnightblue;
+    font-weight: 600;
+    font-family: serif;
+    font-size: medium;
+}
+
+/* width: 300,
+height: 50,
+marginTop: 30,
+color: 'blue' */
+.monsters-search-box {
+    background-color: rgba(186, 215, 249, 0.874);
+    width: 600px;
+    margin-top: 20;
+    /* color: darkslategrey; */
+}
