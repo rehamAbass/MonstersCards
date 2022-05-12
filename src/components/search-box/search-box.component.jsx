@@ -1,22 +1,22 @@
 
 import React from 'react'
 import './search-box.css'
-class SearchBox extends React.Component {
 
-    render() {
-        return (
 
-            <div>
-                <input
-                    className={`search-box ${this.props.className}`}
-                    type='search'
-                    placeholder={this.props.placeholder}
-                    style={this.props.style}
-                    onChange={this.props.searchHandler}
-                />
-            </div>
-        )
-    }
+const SearchBox = ({ className, placeholder, searchHandler, group }) => {
+
+    return (
+        <div className='search-box'>
+            <input
+                className={className}
+                type='search'
+                placeholder={placeholder}
+                onChange={searchHandler}
+            />
+            {group.length === 0 ?
+                <div className='alert1'> NO MONSTERS 🤨 with this subString ! </div> : ''}
+        </div>
+    )
 }
 
 

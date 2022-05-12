@@ -8,10 +8,12 @@
 
 
 h4 {
-    width: 85%;
+    box-shadow: 24px 14px 16px rgba(241, 139, 223, 0.457);
+    background-color: rgba(0, 0, 0, 0.568);
+}
 
-    box-shadow: 24px 24px 66px rgba(250, 249, 255, 0.486);
-    ;
+h4 :hover {
+    background-color: rgba(150, 0, 0, 0.97);
 }
 
 .headClass {
@@ -19,4 +21,5 @@ h4 {
     font-size: large;
     font-weight: 700;
     font-style: italic;
+
 }

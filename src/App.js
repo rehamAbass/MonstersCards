@@ -11,17 +11,16 @@ const App = () => {
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
   const [searchString, setSearchString] = useState('');
-  const admin = { firstName: 'Reham', lastName: 'Abass' };
   //==========================================================================================
   useEffect(() => {
-    console.log('inside useEffect !');
+    // console.log('inside useEffect !');
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((res) => res.json())
       .then((users) => {
         setFilteredMonsters(users);
         setMonsters(users);
       }).then(() => {
-        console.log("monsters = ", monsters, " filtered = ", filteredMonsters)
+        // console.log("monsters = ", monsters, " filtered = ", filteredMonsters)
       })
   }, []); // it runs only one time - no need to call it in each render because [] is empty !!
   //=========================================================================================
@@ -33,18 +32,19 @@ const App = () => {
   //========================================================================================
   const onSearchChanged = (event) => {
     let input = event.target.value.toLowerCase();
-    console.log("** input  = ", input);
+    // console.log("** input  = ", input);
     setSearchString(input);
   }
   //=========================================================================================
   return (
     <div className="App">
       <header className="App-header">
-        <Header admin={admin} />
+        <Header />
         <SearchBox
           className='monsters-search-box'
           placeholder='search monsters '
           searchHandler={onSearchChanged}
+          group={filteredMonsters}
         />
         <CardList group={filteredMonsters} />
 

@@ -33,7 +33,7 @@ class App extends React.Component {
   }
   //========================================================================================
   onSearchChanged = (event) => {
-    console.log("****** = ", event.target.value);
+    // console.log("****** = ", event.target.value);
     let sub = event.target.value;
     sub = sub.toLowerCase();
     let group = this.state.monsters.filter((m) => m.name.toLowerCase().includes(sub));
@@ -53,23 +53,23 @@ class App extends React.Component {
 
     const { group, admin } = this.state;
     const { onSearchChanged } = this;
-  return (
-    <div className="App">
+    return (
+      <div className="App">
 
-      <header className="App-header">
-        <Header admin={admin} />
-        <SearchBox
-          className='monsters-search-box'
-          placeholder='search monsters '
-          // style={{ width: 300, height: 50, marginTop: 30, color: 'blue' }}
-          searchHandler={onSearchChanged}
-        />
-        <CardList group={group} />
+        <header className="App-header">
+          <Header admin={admin} />
+          <SearchBox
+            className='monsters-search-box'
+            placeholder='search monsters '
+            // style={{ width: 300, height: 50, marginTop: 30, color: 'blue' }}
+            searchHandler={onSearchChanged}
+          />
+          <CardList group={group} />
 
-      </header>
-    </div>
-  );
-}
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     /* background-color:brown; */
-    border: 1px solid rgba(15, 230, 69, 0.655);
+    border: 1px solid rgba(0, 0, 0, 0.914);
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 10px;
@@ -23,8 +23,8 @@
 
 .card-container:hover {
     transform: scale(1.15);
-    background-color: rgba(134, 190, 239, 0.484);
-    box-shadow: 14px 14px 14px rgba(201, 219, 236, 0.735);
+    background-color: rgba(250, 190, 247, 0.774);
+    box-shadow: 24px 30px 24px 30px rgba(255, 255, 255, 0.808);
 }
 
 .card-container p {
@@ -32,3 +32,5 @@
     background-color: rgba(16, 0, 68, 0.489);
 
 }
+
+/* rgba(249, 200, 109, 0.644); */
