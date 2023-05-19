@@ -13,12 +13,12 @@
     border-radius: 50%;
     border-color: black; 
 /*         //aqua; */
-    background-color: rgba(15, 20, 20, 0.7);
-    box-shadow: 4px 3px 4px rgba(183, 247, 247, 0.623);
+/*     background-color: rgba(15, 20, 20, 0.7); */
+    box-shadow: 2px 2px 2px 2px rgba(250, 250, 250, 0.9);
      text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
 }
 
 .btnAudio:hover {
     transform: scale(1.15);
-    box-shadow: 10px 10px 10px rgba(21, 20, 75,1);
+    box-shadow: 10px 10px 10px  10px rgba(255, 255, 0,1);
 }
