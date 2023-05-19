@@ -7,9 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to left,
-        rgba(24, 18, 126, 0.3) 0%,
-          rgba(163, 57, 229, 0.3) 30%,
-          rgba(107, 103, 173, 0.3) 70%);
+/*         rgba(25, 20, 130, 0.2) 0%, */
+          rgba(160, 60, 230, 0.2) 0%,
+          rgba(100, 100, 170, 0.2) 50%);
   text-align: center;
 }
 
