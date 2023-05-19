@@ -7,7 +7,9 @@ const Music = () => {
     return (
         <div className='myAudio'>
             <button
-                style={{ backgroundColor: 'rgb(96, 223, 232, 0.432)' }}
+                style={{ 
+//         backgroundColor: 'rgb(96, 223, 232, 0.432)';
+        }}
                 // 
                 className='btnAudio'
                 onClick={() => {
@@ -23,7 +25,7 @@ const Music = () => {
             <button
                 className='btnAudio'
                 style={{
-                    backgroundColor: 'rgb(102, 9, 109,0.44)'
+//                     backgroundColor: 'rgb(102, 9, 109,0.44)'
                 }}
                 onClick={() => {
                     if (flagPlaying === true) {
