@@ -10,8 +10,9 @@
     font-weight: 500;
     font-style: italic;
     color: rgb(203, 231, 255);
-    border-radius: 40%;
-    border-color: aqua;
+    border-radius: 35%;
+    border-color: black; 
+/*         //aqua; */
     /* background-color: rgba(159, 219, 99, 0.521); */
     box-shadow: 4px 3px 4px rgba(183, 247, 247, 0.623);
      text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
