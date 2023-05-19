@@ -2,7 +2,7 @@
     font-family: 'Bigelow Rules', cursive;
     font-size: 60px;
     font-weight: bolder;
-    color: aliceblue;
+    color: rgba(170,10,10,0.8);
     font-stretch: extra-expanded;
      text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
 }
