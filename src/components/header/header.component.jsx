@@ -6,9 +6,9 @@ const Header = () => {
     return (
         <div className='headClass'>
         
-            <h4 style={{ color: 'pink', marginTop: 10, fontFamily: 'cursive', fontStyle: 'italic' }} >
+            <h2 style={{ color: 'pink', marginTop: 10, fontFamily: 'monospace', fontStyle: 'italic' }} >
 
-                Welcome to my REACT app,
+                Welcome to my first REACT app 😊,  
                 was developed by - Reham Abass
                 , on 2022 .
                 <br />
@@ -21,7 +21,7 @@ const Header = () => {
                     </svg>
                     {'/>'}
                 </a>
-            </h4>
+            </h2>
     <Music />
             <p className='Bigelow-title'> MONSTERS CARDS</p>
         </div>
