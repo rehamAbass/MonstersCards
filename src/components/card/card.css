@@ -14,7 +14,7 @@
     backface-visibility: visible;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     font-size: small;
     font-family: monospace;
     /* cursive; */
