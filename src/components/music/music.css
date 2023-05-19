@@ -3,8 +3,8 @@
 .btnAudio {
     margin-top: 15px;
     margin-left: 40px;
-    width: 140px;
-    height: 30px;
+    min-width: 50px;
+    min-height: 50px;
 
     font-family: cursive;
     font-weight: 500;
