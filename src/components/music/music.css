@@ -14,9 +14,10 @@
     border-color: aqua;
     /* background-color: rgba(159, 219, 99, 0.521); */
     box-shadow: 4px 3px 4px rgba(183, 247, 247, 0.623);
+     text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
 }
 
 .btnAudio:hover {
     transform: scale(1.15);
-    box-shadow: 10px 10px 10px rgba(215, 240, 75, 0.808);
+    box-shadow: 10px 10px 10px rgba(21, 20, 75,1);
 }
