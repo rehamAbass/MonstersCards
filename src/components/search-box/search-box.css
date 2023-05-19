@@ -15,15 +15,15 @@
 }
 
 .monsters-search-box {
-    background-color: rgba(186, 215, 249, 0.874);
-    width: 700px;
-    height: 30px;
+    background-color: rgba(220, 200, 200, 0.2);
+    width: 90% !important;
+/*     height: 30px; */
     margin-top: 10;
     padding: 10px;
-    line-height: 20px;
+/*     line-height: 20px; */
     margin-bottom: 30px;
-    color: rgb(11, 31, 56);
-    font-weight: 800;
-    font-family: Geneva, Tahoma, sans-serif;
+/*     color: rgb(11, 31, 56); */
+/*     font-weight: 800; */
+/*     font-family: Geneva, Tahoma, sans-serif; */
     font-size: medium;
 }
