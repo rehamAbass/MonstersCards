@@ -4,6 +4,7 @@
     font-weight: bolder;
     color: aliceblue;
     font-stretch: extra-expanded;
+     text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
 }
 
 
