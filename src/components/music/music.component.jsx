@@ -18,7 +18,7 @@ const Music = () => {
                     }
                 }}
             >
-                Play
+                 ▶ 
             </button>
             <button
                 className='btnAudio'
@@ -31,7 +31,7 @@ const Music = () => {
                         aud.pause();
                         aud.loop = false;
                     }
-                }}>Pause</button>
+                }}> ⏸ </button>
 
         </div>
     );
