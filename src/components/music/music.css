@@ -5,7 +5,7 @@
     margin-left: 40px;
     min-width: 50px;
     min-height: 50px;
-
+    transform :scale(1.2);
     font-family: cursive;
     font-weight: 500;
     font-style: italic;
