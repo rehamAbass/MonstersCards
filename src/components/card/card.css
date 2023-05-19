@@ -6,8 +6,8 @@
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 10px;
-
-    width: 220px;
+    margin-left:20px !important;
+    width: 215px;
     height: 290px;
     cursor: pointer;
     -moz-osx-font-smoothing: "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet";
@@ -23,8 +23,8 @@
 
 .card-container:hover {
     transform: scale(1.1);
-    background-color: rgba(200, 190, 200, 0.6);
-    box-shadow: 15px 15px 20px 15px rgba(255, 255, 255, 0.9);
+    background-color: rgba(210, 190, 210, 0.9);
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 1);
 }
 
 .card-container p {
