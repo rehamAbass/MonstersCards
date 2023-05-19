@@ -1,6 +1,6 @@
 .card-list {
     width: 200px;
-    margin-left: 10%;
+    margin-left: 17%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-gap: 8%;
