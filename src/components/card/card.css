@@ -23,8 +23,8 @@
 
 .card-container:hover {
     transform: scale(1.25);
-    background-color: rgba(190, 170, 210, 0.8);
-    box-shadow: 6px 6px 10px  3px rgba(255, 255, 255, 0.9);
+    background-color: rgba(240, 240, 245, 0.7);
+    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.9);
 }
 
 .card-container p {
