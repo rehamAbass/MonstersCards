@@ -5,7 +5,6 @@
     margin-left: 40px;
     min-width: 50px;
     min-height: 50px;
-    transform :scale(1.2);
     font-family: cursive;
     font-weight: 500;
     font-style: italic;
@@ -14,11 +13,11 @@
     border-color: black; 
 /*         //aqua; */
 /*     background-color: rgba(15, 20, 20, 0.7); */
-    box-shadow: 2px 2px 2px white;
+    box-shadow: 1px 1px 2px white;
      text-shadow: 1px 1px 1px black,0 0 0.8em black, 0 0 0.2em black;
 }
 
 .btnAudio:hover {
     transform: scale(1.15);
-    box-shadow: 10px 10px 10px yellow;
+    box-shadow: 1px 1px 2px yellow;
 }
