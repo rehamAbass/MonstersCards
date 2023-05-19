@@ -5,7 +5,7 @@ import Music from '../music/music.component';
 const Header = () => {
     return (
         <div className='headClass'>
-            <Music />
+        
             <h4 style={{ color: 'pink', marginTop: 10, fontFamily: 'cursive', fontStyle: 'italic' }} >
 
                 Welcome to my REACT app,
@@ -22,6 +22,7 @@ const Header = () => {
                     {'/>'}
                 </a>
             </h4>
+    <Music />
             <p className='Bigelow-title'> MONSTERS CARDS</p>
         </div>
     )
