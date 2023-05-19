@@ -22,14 +22,14 @@
 }
 
 .card-container:hover {
-    transform: scale(1.15);
-    background-color: rgba(250, 190, 247, 0.774);
-    box-shadow: 24px 30px 24px 30px rgba(255, 255, 255, 0.808);
+    transform: scale(1.1);
+    background-color: rgba(200, 190, 200, 0.6);
+    box-shadow: 15px 15px 20px 15px rgba(255, 255, 255, 0.9);
 }
 
 .card-container p {
     border-radius: 20%;
-    background-color: rgba(16, 0, 68, 0.489);
+    background-color: rgba(20, 0, 100, 0.4);
 
 }
 
