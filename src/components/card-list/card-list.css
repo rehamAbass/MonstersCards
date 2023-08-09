@@ -5,7 +5,7 @@
     max-width: 800px !important;
     justify-content: center;
     text-align: center;
-    margin-left: 22% !important;
+    margin-left: 20%;
     vertical-align: middle;
 }
 
@@ -13,5 +13,9 @@
 .card-list {
     float: none;
     width: 100%;
+    display: flex !important;
+    flex-direction: column;
+/*     grid-template-columns: 1fr 1fr; */
+    margin-left: 2% !important;
   }  
 }
