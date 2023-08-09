@@ -9,3 +9,9 @@
     vertical-align: middle;
 }
 
+@media screen and (max-width: 500px) {
+.card-list {
+    float: none;
+    width: 90%;
+  }  
+}
