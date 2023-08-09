@@ -3,18 +3,18 @@
     flex-direction: column;
     /* background-color:brown; */
     border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 25px;
+    border-radius: 84px;
     padding: 10px;
     margin-bottom: 10px;
     margin-left:17px !important;
     width: 210px;
-    height: 290px;
+    height: 244px;
     cursor: pointer;
     -moz-osx-font-smoothing: "Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet";
     backface-visibility: visible;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 110, 110, 0.2);
     font-size: small;
     font-family: monospace;
     /* cursive; */
