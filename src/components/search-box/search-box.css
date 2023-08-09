@@ -27,3 +27,11 @@
 /*     font-family: Geneva, Tahoma, sans-serif; */
     font-size: medium;
 }
+
+
+input{
+    width: 80% !important;
+    padding: 0px;
+    padding-left: 20px;
+    border-radius: 30px;    
+}
