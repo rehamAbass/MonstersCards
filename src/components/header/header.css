@@ -25,3 +25,10 @@ h2{
     font-style: italic;
     width:100%;
 }
+
+@media screen and (max-width: 500px) {
+.headClass {
+    float: none;
+    width: 100%;
+  }  
+}
