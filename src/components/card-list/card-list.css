@@ -2,16 +2,16 @@
 /*     width: 200px; */
 /*     margin-left: 17%; */
     
-/*     display: grid; */
-/*     grid-template-columns: 1fr 1fr 1fr 1fr ; */
-/*     grid-gap: 8%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 8%;
 
     max-width : 800px !important;
-    display:flex;
+/*     display:flex; */
 /*    flex-direction: row; */
     justify-content: center;
     text-align: center;
-    margin-left: 22% !important;
+/*     margin-left: 22% !important; */
 /*     margin-right: 10%; */
     vertical-align: middle;
 }
