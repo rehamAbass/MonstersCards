@@ -6,11 +6,12 @@
 /*     grid-template-columns: 1fr 1fr 1fr 1fr ; */
 /*     grid-gap: 8%; */
 
+    max-width : 900px !important;
     display:flex;
    flex-direction: column;
     justify-content: center;
     text-align: center;
-/*     margin-left: 10%; */
+    margin-left: 24%;
 /*     margin-right: 10%; */
     vertical-align: middle;
 }
