@@ -1,5 +1,10 @@
 .myAudio {}
-
+@media screen and (max-width: 500px) {
+.myAudio {
+    float: none;
+    width: 100%;
+  }  
+}
 .btnAudio {
     margin-top: 20px;
       margin-bottom: 20px;
