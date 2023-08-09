@@ -12,6 +12,6 @@
 @media screen and (max-width: 500px) {
 .card-list {
     float: none;
-    width: 90%;
+    width: 100%;
   }  
 }
