@@ -2,6 +2,13 @@
     padding: 10px;
 }
 
+@media screen and (max-width: 500px) {
+.search-box {
+    float: none;
+    width: 100%;
+  }  
+}
+
 .alert1 {
     text-align: center;
     padding: 40px;
