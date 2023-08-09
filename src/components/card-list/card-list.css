@@ -1,18 +1,11 @@
 .card-list {
-/*     width: 200px; */
-/*     margin-left: 17%; */
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-gap: 8%;
-
-    max-width : 800px !important;
-/*     display:flex; */
-/*    flex-direction: row; */
+    max-width: 800px !important;
     justify-content: center;
     text-align: center;
-/*     margin-left: 22% !important; */
-/*     margin-right: 10%; */
+    margin-left: 22% !important;
     vertical-align: middle;
 }
 
